@@ -1,0 +1,41 @@
+html {
+  background-image: url("./multimedia/textura_olas.png");
+  font-family: "Playwrite AU QLD", cursive;
+  background-color: #dab2ff;
+  background-size: cover;
+}
+.Parte1 {
+  background-image: url("./multimedia/textura_olas.png");
+  background-color: #f6cfff;
+  border-radius: 1em;
+  margin-left: 11vh;
+  height: 95vh;
+  width: 180vh;
+}
+.Parte1:hover {
+  box-shadow: 0 0 10px #a6a09b;
+}
+.titulo {
+  text-shadow: 0 0 5px #a6a09b;
+  color: aliceblue;
+  text-align: center;
+  font-size: 4em;
+}
+.parrafoImagen {
+  margin: auto auto auto 15vh;
+  display: flex;
+}
+.parrafoImagen img {
+  height: 50vh;
+  width: 50vh;
+}
+.parrafoImagen p {
+  text-shadow: 0 0 25px black;
+  margin-right: 25px;
+  color: aliceblue;
+  font-size: 2.2vh;
+  width: 300px;
+}
+.flechillas {
+  margin: -17vh auto auto 65vh;
+}
