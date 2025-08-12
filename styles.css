@@ -39,3 +39,10 @@ html {
 .flechillas {
   margin: -17vh auto auto 65vh;
 }
+#chat-container {
+  height: 800px;
+  width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
