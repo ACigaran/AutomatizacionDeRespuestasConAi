@@ -35,6 +35,10 @@ html {
   color: aliceblue;
   font-size: 2.2vh;
   width: 300px;
+  display: block;
+}
+.pResolucion {
+  display: none;
 }
 .flechillas {
   margin: -17vh auto auto 65vh;
@@ -43,6 +47,45 @@ html {
   height: 800px;
   width: 800px;
   margin: 20px auto;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  .Parte1 {
+    margin-left: 5vh;
+    border-radius: 0.5em;
+    height: 50vh;
+    width: 35vh;
+  }
+  .titulo {
+    font-size: 1.2em;
+  }
+  .parrafoImagen {
+    margin: 0 auto;
+  }
+  .parrafoImagen img {
+    margin: 0 auto;
+    height: 20vh;
+    width: 20vh;
+  }
+  .parrafoImagen p {
+    display: none;
+  }
+  .pResolucion {
+    text-shadow: 0 0 25px black;
+    text-align: justify;
+    color: aliceblue;
+    position: absolute;
+    margin: 200px 15px;
+    font-size: 1.4vh;
+    display: flex;
+    width: 300px;
+  }
+  .flechillas {
+    margin: 14vh 4vh;
+    width: 250px;
+  }
+  #chat-container {
+    height: 600px;
+    width: 320px;
+    margin: 90px auto;
+  }
 }
