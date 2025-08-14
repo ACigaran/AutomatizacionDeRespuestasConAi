@@ -56,6 +56,8 @@ html {
     width: 85%;
   }
   .titulo {
+    margin-top: 25px;
+    margin-bottom: 5px;
     font-size: 1.2em;
   }
   .parrafoImagen {
@@ -70,17 +72,17 @@ html {
     display: none;
   }
   .pResolucion {
-    text-shadow: 0 0 25px black;
+    text-shadow: 0 0 5px #a6a09b;
     text-align: justify;
     color: aliceblue;
     position: absolute;
     margin: 200px 10px;
-    font-size: 0.8em;
+    font-size: 1.2em;
     display: flex;
     width: 300px;
   }
   .flechillas {
-    margin: 6.5em 2em;
+    margin: 8.5em 2em;
     width: 250px;
   }
   #chat-container {
