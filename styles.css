@@ -50,10 +50,10 @@ html {
 }
 @media screen and (max-width: 768px) {
   .Parte1 {
-    margin-left: 5vh;
+    margin: 0 auto;
     border-radius: 0.5em;
-    height: 50vh;
-    width: 35vh;
+    height: 28em;
+    width: 85%;
   }
   .titulo {
     font-size: 1.2em;
@@ -63,8 +63,8 @@ html {
   }
   .parrafoImagen img {
     margin: 0 auto;
-    height: 20vh;
-    width: 20vh;
+    height: 12em;
+    width: 12em;
   }
   .parrafoImagen p {
     display: none;
@@ -74,13 +74,13 @@ html {
     text-align: justify;
     color: aliceblue;
     position: absolute;
-    margin: 200px 15px;
-    font-size: 1.4vh;
+    margin: 200px 10px;
+    font-size: 0.8em;
     display: flex;
     width: 300px;
   }
   .flechillas {
-    margin: 14vh 4vh;
+    margin: 6.5em 2em;
     width: 250px;
   }
   #chat-container {
