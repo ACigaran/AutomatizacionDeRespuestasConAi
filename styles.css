@@ -52,7 +52,7 @@ html {
   .Parte1 {
     margin: 0 auto;
     border-radius: 0.5em;
-    height: 28em;
+    height: 29em;
     width: 85%;
   }
   .titulo {
@@ -82,7 +82,7 @@ html {
     width: 300px;
   }
   .flechillas {
-    margin: 8.5em 2em;
+    margin: 9em 2em;
     width: 250px;
   }
   #chat-container {
